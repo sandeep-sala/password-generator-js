@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+
+}
+
+.main-div_warapper{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+
+.main-div{
+    background: #151715;
+    padding: 2em;
+    border-radius: 5px;
+    width: 30em;
+    text-align: center;
+    margin: 0;
+    box-shadow: 0px 0px 8px 1px #4d504de6;
+}
+
+
+.password-header h3{
+    color: white;
+    padding: 0px 0 18px 0;
+}
+
+
+.password-choice{
+    margin: 0 auto;
+}
+
+.password-choice td{
+    text-align: left;
+    color: white;
+    padding: 5px 10px;
+}
+
+#gen-Pass{
+    padding: 10px;
+}
+
+#password-genratered{
+    padding: 10px;
+    width: 70%;
+}
+
+
+
+
+#loader {
+    border: 5px solid #bae8bf;
+    border-top: 5px solid #3cd14e;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    display: none;
+}
+
+footer.main-div_footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #fffffffa;
+    font-size: 12px;
+    padding: 3px;
+    background-color: #151715;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #68d975;
+}
