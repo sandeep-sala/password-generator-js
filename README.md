@@ -1,13 +1,13 @@
-# Word Counter
+# Password Generator
 
-It is an Word Counter which count number of words ,letter and also give count of repeated word.
+It is an Password Generator, which takes the input of such as a length of password
 
 ## Installation
 
 ```bash
-git clone https://github.com/sandeep-sala/word-counter.git
+git clone https://github.com/sandeep-sala/password-generator.git
 or
-git clone https://github.com/sandeep-sala/word-counter.git <folder name>
+git clone https://github.com/sandeep-sala/password-generator.git <folder name>
 ```
 
 
@@ -20,4 +20,4 @@ open index.html in browser
 
 ## Screenshots
 
-![ScreenShot](https://i.postimg.cc/d1hkYpK3/Annotation-2020-06-07-154204.png)
+![ScreenShot](https://i.postimg.cc/d0rzxgjs/Pass-Generator.png)
