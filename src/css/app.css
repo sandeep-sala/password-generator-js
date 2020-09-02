@@ -26,6 +26,13 @@ body{
     box-shadow: 0px 0px 8px 1px #4d504de6;
 }
 
+@media only screen and (max-width: 600px) {
+    .main-div{
+        width: 90%;
+        padding: 60px 0px;
+    }
+}
+
 
 .password-header h3{
     color: white;
@@ -45,13 +52,23 @@ body{
 
 #gen-Pass{
     padding: 10px;
+    margin-bottom: 2em;
 }
 
-#password-genratered{
+#password-genratered{padding: 10px;}
+
+#password-genratered_wrapper{
+    padding: 5px;
+    border: 1px solid white;
+    width: max-content;
+    margin: 0 auto; 
+    border-radius: 5px;
+}
+
+
+#password-genratered_wrapper button{
     padding: 10px;
-    width: 70%;
 }
-
 
 
 

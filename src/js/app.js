@@ -33,3 +33,11 @@ function makePass(length,c,s,n,e,a) {
     }
     return result;
  }
+
+
+ function copyText() {
+    var copyText = document.getElementById("password-genratered");
+    copyText.select();
+    document.execCommand("copy");
+    alert("Copied the text: " + copyText.value);
+}

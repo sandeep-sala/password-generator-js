@@ -7,6 +7,7 @@
     <meta name="author" content="Sandeep Sala">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="icon" href="https://i.postimg.cc/NF3M4ryF/circle-cropped.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="src/css/app.css">
 </head>
@@ -63,8 +64,9 @@
             <div>
                 <button id="gen-Pass" onclick="generatrePass()">Generate Password</button>
             </div>
-            <div style="margin-top: 1.5em;">
+            <div id ="password-genratered_wrapper">
                 <input type="text" id="password-genratered">
+                <button onclick="copyText()"><i class="fa fa-clone" aria-hidden="true"></i></button>
             </div>
             
         </div>
