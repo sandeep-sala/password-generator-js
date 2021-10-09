@@ -20,4 +20,4 @@ open index.html in browser
 
 ## Screenshots
 
-![ScreenShot](https://i.postimg.cc/d0rzxgjs/Pass-Generator.png)
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/password-generator/master/src/img/password_gen.png)
